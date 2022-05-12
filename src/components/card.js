@@ -14,7 +14,7 @@ function Card() {
   }
   function funOnclick() {
     fetch(
-      `http://api.weatherapi.com/v1/current.json?key=bb36b42150f244a7a3b142301221205&q=${cidade}&aqi=no&lang=pt`
+      `https://api.weatherapi.com/v1/current.json?key=bb36b42150f244a7a3b142301221205&q=${cidade}&aqi=no&lang=pt`
     )
       .then((resposta) => {
         if (resposta.status === 200) {
