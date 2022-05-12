@@ -1,0 +1,22 @@
+:root{
+    
+}
+.horario1{
+    --cor1: #C4E2FE;
+    --cor2: #24609C;
+}
+.horario0{
+    --cor1: #1F3046;
+    --cor2: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem 0 1rem;
+}

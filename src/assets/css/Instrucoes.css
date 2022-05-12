@@ -1,0 +1,20 @@
+.instrucoes h2{
+text-align: center;
+background-color: #0073DB;
+padding: 1rem;
+color: #ffffff;
+border: 5px solid #FBB513;
+border-radius: 999px;
+line-height: 1.5rem;
+margin-top: 2rem;
+max-width: 350px;
+}
+.instrucoes{
+ width: 100% ;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ font-weight: bold;
+}
