@@ -9,7 +9,7 @@ function Card() {
 
 
   function funOnchange(cidadeDoinput){
-    console.log(cidadeDoinput.target.value);
+    
     setCidade(cidadeDoinput.target.value)
   }
   function funOnclick() {
@@ -24,9 +24,7 @@ function Card() {
       .then((dados) => {
         setTempo(dados);
 
-        console.log(dados);
-
-        console.log(tempo);
+       
       });
   }
 
@@ -36,7 +34,7 @@ function Card() {
         <div className="container">
           <div className={`card horario${tempo.current.is_day}`}>
             <div className="cardTop">
-              <h2><i class='bx bxs-map'></i>{tempo.location.name}</h2>
+              <h2><i className='bx bxs-map'></i>{tempo.location.name}</h2>
 
               <h1 className="Temperatura-icon">
                 <img src={tempo.current.condition.icon} alt=""></img>
@@ -48,10 +46,10 @@ function Card() {
 
               <ul>
                 <li>
-                <i class='bx bxs-droplet' ></i>Umidade: <span>{tempo.current.humidity}</span>%
+                <i className='bx bxs-droplet' ></i>Umidade: <span>{tempo.current.humidity}</span>%
                 </li>
                 <li>
-                <i class='bx bx-wind'></i>Vento: <span>{tempo.current.wind_kph}</span>Km
+                <i className='bx bx-wind'></i>Vento: <span>{tempo.current.wind_kph}</span>Km
                 </li>
               </ul>
             </div>
