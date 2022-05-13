@@ -36,7 +36,7 @@ function Card() {
         <div className="container">
           <div className={`card horario${tempo.current.is_day}`}>
             <div className="cardTop">
-              <h2>{tempo.location.name}</h2>
+              <h2><i class='bx bxs-map'></i>{tempo.location.name}</h2>
 
               <h1 className="Temperatura-icon">
                 <img src={tempo.current.condition.icon} alt=""></img>
@@ -48,10 +48,10 @@ function Card() {
 
               <ul>
                 <li>
-                  Umidade: <span>{tempo.current.humidity}</span>%
+                <i class='bx bxs-droplet' ></i>Umidade: <span>{tempo.current.humidity}</span>%
                 </li>
                 <li>
-                  Vento: <span>{tempo.current.wind_kph}</span>Km
+                <i class='bx bx-wind'></i>Vento: <span>{tempo.current.wind_kph}</span>Km
                 </li>
               </ul>
             </div>

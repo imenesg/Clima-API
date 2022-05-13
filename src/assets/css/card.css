@@ -19,6 +19,10 @@
     font-weight: bold;
     font-size: 1.5rem;
 }
+.cardTop h2{
+    display: flex;
+    align-items: center;
+}
 .Temperatura-icon{
     display: flex;
     align-items: center;
@@ -26,10 +30,15 @@
 }
 .Temperatura-icon img{
     width: 55px;
+    animation: pulse 2s infinite alternate;
 }
 ul{
     display: flex;
     justify-content: space-between;
+}
+ul li{
+display: flex;
+align-items: center;
 }
 .condicao{
     text-align: center;
@@ -61,7 +70,18 @@ input{
     margin-left: 1rem;
 
     color: #FBB513;
-    border: 5px solid #FBB513;
+    border: 3px solid #FBB513;
 
     cursor: pointer;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+  }
+
+  
