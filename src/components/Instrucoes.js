@@ -7,7 +7,7 @@ function Instrucoes(){
     const [visibilidade, setVisibilidade] = useState("inicio")
     function mostraEscondeinstrucoes(){
         
-        if(visibilidade == "inicio"  || visibilidade == "invisivel"  ){
+        if(visibilidade === "inicio"  || visibilidade === "invisivel"  ){
             setVisibilidade("instrucoes")
             
         }else{
