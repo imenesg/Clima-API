@@ -32,11 +32,11 @@
     width: 55px;
     animation: pulse 2s infinite alternate;
 }
-ul{
+.card ul{
     display: flex;
     justify-content: space-between;
 }
-ul li{
+.card ul li{
 display: flex;
 align-items: center;
 }

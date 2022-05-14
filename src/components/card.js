@@ -59,6 +59,8 @@ function Card() {
       ) : null}
 
       <div className="input-botao"><input value={cidade} onChange={funOnchange} placeholder="Digite a cidade aqui :)"></input> <div className="button" onClick={funOnclick}> Pesquisar</div></div>
+
+      
       
        
     </>

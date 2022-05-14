@@ -13,9 +13,27 @@ font-weight: bold;
 margin: 2rem auto;
 
 animation: aparece 2s;
+margin-bottom: 0px;
 }
 .instrucoes p{
     margin: .5rem;
+}
+.instrucoes ol{
+    margin-top: 1rem;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+    border: #FBB513 solid 3px;
+    border-radius: 1rem;
+    padding: .5rem;
+    
+}
+
+.instrucoes ol li{
+    list-style-position: inside; 
+}
+.ps{
+    margin: 1rem 0 !important;
+    
 }
 
 .link{
@@ -23,12 +41,87 @@ animation: aparece 2s;
     color: unset; 
     border-bottom:2px solid #FBB513;
 }
+.divDuvida{
+    display: flex;
+    justify-content: end;
+    
+    max-width: 350px;
+    width: 100% ;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.botaoDuvida{ 
+    border-radius: 999px;
+    background-color: #0073DB;
+    padding: .25rem;
+    color: #FBB513;
+    border: 3px solid #FBB513;
+    font-size: 2rem;
+    
+    margin-right: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.invisivel{
+    animation: desaparece 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+
+    text-align: center;
+    background-color: #0073DB;
+    padding: 1rem;
+    color: #ffffff;
+
+    border-radius: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    max-width: 350px;
+    width: 100% ;
+    font-weight: bold;
+    margin: 2rem auto;
+    margin-bottom: 0px;
+}
+.inicio{
+    visibility: hidden;
+    display: none;
+}
 @keyframes aparece {
     0% {
         transform: scale(0);
     }
     100% {
         transform: scale(1);
+    }
+  }
+  @keyframes desaparece {
+    0% {
+        transform: scale(1);
+        
+    }
+    99% {
+        transform: scale(0);
+        max-width: unset;
+        width: unset ;
+        height: auto;
+        font-size: unset;
+        padding: unset;
+        margin: unset;
+        visibility: visible;
+        display: unset;
+
+    }
+    100% {
+        padding: 0;
+        margin: 0;
+        font-size: 0px;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        display: none;
     }
   }
 
