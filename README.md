@@ -1,3 +1,25 @@
+# 🔵 Clima API 🔵
+
+
+### 🖐️Esse é um projeto feito por mim, Usando React.js e a API do site weatherapi.
+ <br>
+
+### 🌦️Nele você pode digitar o nome de sua cidade ou de qualquer uma que queira saber como está o clima, e ver informações como: temperatura, umidade, velocidade do vento e claro o clima do local :) ☀️
+<P>
+
+  
+  <p align="center">
+    
+  <img width="800" height="" src="https://user-images.githubusercontent.com/69609443/170536808-2f37e2b1-3df7-4984-9caf-27c6528b6723.png">
+</p>
+ 
+ ## O site tambem é totalmente responsivo📱.
+   
+
+  
+## De uma olhada. 😃**LINK**: https://imenesg-clima-api.netlify.app/ 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
